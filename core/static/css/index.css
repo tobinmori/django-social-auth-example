@@ -1,0 +1,46 @@
+img {
+    border: 3px solid #282c34;
+  }
+
+  .container-fluid {
+    height: 100vh;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-fluid > div {
+    width: 85%;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  .card {
+    width: 100%;
+  }
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn a, .btn a:hover {
+    color: white;
+    text-decoration: none ;
+
+  }
+  .btn-primary {
+      color: white;
+  }
+
+ 
+
+ul.nav li a, ul.nav li a:visited {
+    color: white !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: white !important;
+}
+
+ul.nav li.active a {
+    color: white !important;
+}
